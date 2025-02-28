@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1124</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>440</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Deepseek</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>500</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Funasr</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>560</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>pyttsx3</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>530</y>
+     <width>661</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>480</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>输入框</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>530</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>110</y>
+     <width>671</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>textEdit</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>comboBox_3</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>listWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
